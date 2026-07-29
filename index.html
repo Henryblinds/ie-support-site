@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Income &amp; Expenses — Support &amp; Privacy</title>
+<style>
+  :root{
+    --bg:#f6f8fa; --card:#ffffff; --text:#111827; --muted:#5b6470;
+    --border:#e6e9ee; --accent:#12a6b8; --accent2:#1fb980;
+    --grad:linear-gradient(120deg,#1fb980 0%,#12a6b8 50%,#4f7bf5 100%);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0e1116; --card:#161b22; --text:#e7ecf2; --muted:#9aa4b2;
+      --border:#232a33; --accent:#3fd0c9; --accent2:#3ee08f;
+    }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--text); line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .hero{
+    background:var(--grad); color:#fff; padding:56px 24px 48px; text-align:center;
+  }
+  .logo{
+    width:64px;height:64px;border-radius:18px;background:rgba(255,255,255,.18);
+    display:inline-flex;align-items:center;justify-content:center;gap:3px;
+    margin-bottom:18px;backdrop-filter:blur(4px);
+  }
+  .logo span{display:block;width:7px;border-radius:3px;background:#fff}
+  .logo span:nth-child(1){height:16px}
+  .logo span:nth-child(2){height:26px}
+  .logo span:nth-child(3){height:36px}
+  .hero h1{margin:0 0 6px;font-size:1.9rem;letter-spacing:-.02em}
+  .hero p{margin:0;opacity:.92;font-size:1.05rem}
+  .wrap{max-width:760px;margin:0 auto;padding:32px 20px 64px}
+  .card{
+    background:var(--card);border:1px solid var(--border);border-radius:18px;
+    padding:26px 26px;margin:20px 0;
+  }
+  h2{font-size:1.3rem;margin:.2em 0 .6em;letter-spacing:-.01em}
+  h3{font-size:1.02rem;margin:1.2em 0 .3em}
+  a{color:var(--accent)}
+  .btn{
+    display:inline-block;background:var(--grad);color:#fff;text-decoration:none;
+    padding:12px 22px;border-radius:12px;font-weight:600;margin-top:8px;
+  }
+  .muted{color:var(--muted)}
+  ul{padding-left:1.2em}
+  li{margin:.25em 0}
+  .faq h3{margin-top:1.4em}
+  hr{border:none;border-top:1px solid var(--border);margin:28px 0}
+  footer{text-align:center;color:var(--muted);font-size:.85rem;padding:24px}
+  .toc{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:22px}
+  .toc a{
+    background:rgba(255,255,255,.16);color:#fff;text-decoration:none;
+    padding:7px 14px;border-radius:999px;font-size:.9rem;
+  }
+  code{background:var(--bg);padding:1px 6px;border-radius:6px;border:1px solid var(--border)}
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="logo"><span></span><span></span><span></span></div>
+    <h1>Income &amp; Expenses</h1>
+    <p>Support &amp; Privacy</p>
+    <div class="toc">
+      <a href="#support">Support</a>
+      <a href="#faq">FAQ</a>
+      <a href="#privacy">Privacy Policy</a>
+    </div>
+  </div>
+
+  <div class="wrap">
+
+    <section id="support" class="card">
+      <h2>Support</h2>
+      <p>Need help, found a bug, or have a feature request? We'd love to hear from you and typically reply within 1–2 business days.</p>
+      <p><a class="btn" href="mailto:henry.dev09@gmail.com?subject=Income%20%26%20Expenses%20Support">Email Support</a></p>
+      <p class="muted">Or reach us directly at <a href="mailto:henry.dev09@gmail.com">henry.dev09@gmail.com</a></p>
+    </section>
+
+    <section id="faq" class="card faq">
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Where is my data stored?</h3>
+      <p>All of your transactions, budgets, bills, and cards are stored <strong>locally on your device</strong>. The app has no account system and does not upload your financial records to any server.</p>
+
+      <h3>How do I back up or move my data to a new phone?</h3>
+      <p>Open <strong>Settings → Backup &amp; restore</strong>. Export creates a JSON file you can save anywhere (Files, iCloud Drive, email). On your new device, use Import and select that file. Importing replaces the current data on the device.</p>
+
+      <h3>What's the difference between Free and Pro?</h3>
+      <p><strong>Free</strong> includes manual income &amp; expense tracking with core categories. <strong>Pro</strong> unlocks unlimited categories, budgets, bill &amp; loan reminders, insights, forecasts, reports, credit-card tracking, and backup &amp; restore.</p>
+
+      <h3>How do I manage or cancel my subscription?</h3>
+      <p>Subscriptions are billed through your app store. On iPhone: <strong>Settings → [your name] → Subscriptions</strong>. On Android: <strong>Google Play → Subscriptions</strong>. Cancel any time; access continues until the end of the current period.</p>
+
+      <h3>I bought Pro but it isn't showing.</h3>
+      <p>Open the upgrade screen and use <strong>Restore Purchases</strong>, and make sure you're signed in with the same store account you purchased with. If it still doesn't appear, email us.</p>
+
+      <h3>Why aren't my bill reminders appearing?</h3>
+      <p>Make sure notifications are enabled for the app in your phone's system settings. Reminders fire ahead of each bill's due date, not immediately after you create them.</p>
+    </section>
+
+    <section id="privacy" class="card">
+      <h2>Privacy Policy</h2>
+      <p class="muted">Last updated: 29 July 2026</p>
+
+      <p>Income &amp; Expenses ("the app", "we") is built to respect your privacy. This policy explains what the app does and does not collect.</p>
+
+      <h3>Data you enter stays on your device</h3>
+      <p>Your financial data — transactions, budgets, bills, loans, credit cards, and settings — is stored only in local storage on your device. We do not have a server that receives or stores this data, and we cannot see it.</p>
+
+      <h3>Backups you create</h3>
+      <p>When you use Backup &amp; restore, the app writes a JSON file to a location <em>you</em> choose. You control where that file goes and who can access it. We never receive a copy.</p>
+
+      <h3>Analytics</h3>
+      <p>The app uses <strong>Google Firebase Analytics</strong> to understand anonymous, aggregate usage (for example, which screens are opened and whether features work), which helps us improve the app. This data is not used to identify you and does not include your transaction details. See Google's <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy &amp; Security</a> information.</p>
+
+      <h3>Purchases</h3>
+      <p>Subscriptions are processed by <strong>Apple's App Store</strong> or <strong>Google Play</strong>. Payment is handled entirely by those stores under their own privacy policies; we never see your card or payment details. The app only receives whether an active entitlement exists.</p>
+
+      <h3>Permissions</h3>
+      <ul>
+        <li><strong>Notifications</strong> — used only to deliver the bill and loan reminders you set up.</li>
+        <li><strong>Photos</strong> — used only if you choose to attach a receipt image to a transaction; images stay on your device.</li>
+      </ul>
+
+      <h3>Data sharing</h3>
+      <p>We do not sell your data. We do not share your financial records with third parties. The only third-party services involved are the analytics and app-store payment providers described above.</p>
+
+      <h3>Children</h3>
+      <p>The app is not directed at children under 13 and does not knowingly collect personal information from them.</p>
+
+      <h3>Changes</h3>
+      <p>We may update this policy as the app evolves; the "Last updated" date above will change accordingly.</p>
+
+      <h3>Contact</h3>
+      <p>Questions about privacy? Email <a href="mailto:henry.dev09@gmail.com">henry.dev09@gmail.com</a>.</p>
+    </section>
+
+  </div>
+
+  <footer>
+    © 2026 Income &amp; Expenses. All rights reserved.
+  </footer>
+</body>
+</html>
